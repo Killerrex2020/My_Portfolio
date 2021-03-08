@@ -1,0 +1,44 @@
+h1 {
+    color: rebeccapurple;
+}
+
+ /* * {
+    border: solid;
+} */
+
+.header{
+    background-color:#FF0000;
+    display: flex;
+    justify-content: space-between;
+    font: 500;
+    font-size:larger;
+    font-style: italic;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+body{
+background-color: rgb(255, 0, 170);
+}
+img{
+    height:300px;
+    width:300px;
+}
